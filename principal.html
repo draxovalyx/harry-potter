@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora el mágico mundo de Harry Potter con datos curiosos, personajes y lugares icónicos de la saga.">
+    <meta name="keywords" content="Harry Potter, Mundo mágico, Hogwarts, Personajes, Hechizos">
+    <meta name="author" content="Sara Afilal">
+    <meta property="og:title" content="Harry Potter: Mundo Mágico">
+    <title>Harry Potter: Mundo Mágico</title>
+    <link rel="stylesheet" href="css/principal.css">
+
+</head>
+<body>
+    <!-- Reproductor de audio -->
+    <audio autoplay>
+        <source src="multimedia/fondo.mp3" type="audio/mp3">
+        <source src="multimedia/fondo.ogg" type="audio/ogg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Header principal -->
+    <header class="header">
+        <h1>Harry Potter: Mundo Mágico</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="lugares.html">Lugares</a></li>
+                <li><a href="hechizos.html">Hechizos</a></li>
+                <li><a href="peliculas.html">Películas</a></li>
+                <li><a href="libros.html">Libros</a></li>
+                <li><a href="familias.html">Familias</a></li>
+                <li><a href="batalla.html">Batalla de Hogwarts</a></li>
+                <li><a href="escenas.html">Escenas</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner principal -->
+    <section class="banner">
+        <h2>Bienvenidos al Mundo Mágico</h2>
+        <p>Sumérgete en la magia, los secretos y la historia tras la famosa saga de Harry Potter.</p>
+    </section>
+
+    <!-- Contenido principal -->
+    <section class="content">
+        <h2>Explora Más</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="img/origen.jpg" alt="Origen">
+                <h3>El origen de todo</h3>
+                <a href="origen.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/personajes.jpg" alt="Personajes">
+                <h3>Personajes</h3>
+                <a href="personajes.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/Hogwarts.jpg" alt="Lugares">
+                <h3>Lugares importantes</h3>
+                <a href="lugares.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/varitas.jpg" alt="Hechizos">
+                <h3>Hechizos</h3>
+                <a href="hechizos.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/peliculas.jpg" alt="Películas">
+                <h3>Películas</h3>
+                <a href="peliculas.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/libros.jpg" alt="Libros">
+                <h3>Libros</h3>
+                <a href="libros.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/familias.jpg" alt="Familias">
+                <h3>Familias Mágicas</h3>
+                <a href="familias.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/batallas.jpg" alt="Batalla de Hogwarts">
+                <h3>Batalla de Hogwarts</h3>
+                <a href="batalla.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/escenas.jpg" alt="Escenas">
+                <h3>Escenas</h3>
+                <a href="escenas.html">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="img/curiosidades.jpg" alt="Curiosidades">
+                <h3>Curiosidades</h3>
+                <a href="curiosidades.html">Ver más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Harry Potter Fan Page. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Banner de cookies -->
+    <div id="cookie-banner">
+        <p>Este sitio utiliza cookies para mejorar tu experiencia. <a href="politica-de-privacidad.html" style="color: #f0a500;">Leer más</a></p>
+        <button id="accept-cookies">Aceptar</button>
+    </div>
+
+    <script>
+        // Ocultar el banner de cookies al hacer clic en el botón
+        document.getElementById('accept-cookies').addEventListener('click', () => {
+            document.getElementById('cookie-banner').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

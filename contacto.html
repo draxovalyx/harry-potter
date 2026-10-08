@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contacto para consultas y preguntas sobre el mundo mágico de Harry Potter.">
+    <meta name="keywords" content="contacto, consulta, Harry Potter, Mundo mágico"> <!-- Palabras clave para SEO -->
+    <meta name="author" content="Sara Afilal"> <!-- Autor de la página -->
+    <meta property="og:title" content="Contacto - Harry Potter: Mundo Mágico"> <!-- Información para compartir en redes sociales -->
+    <title>Contacto - Harry Potter: Mundo Mágico</title>
+    <link rel="stylesheet" href="css/contacto.css"> <!-- Enlace al archivo de estilos CSS -->
+</head>
+<body>
+
+    <!-- Encabezado de la página -->
+    <header class="header">
+        <h1>Harry Potter: Mundo Mágico</h1> <!-- Título del sitio -->
+        <nav>
+            <ul class="nav-links">
+                <!-- Barra de navegación con enlaces a diferentes secciones del sitio -->
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="origen.html">Origen</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="lugares.html">Lugares</a></li>
+                <li><a href="hechizos.html">Hechizos</a></li>
+                <li><a href="peliculas.html">Películas</a></li>
+                <li><a href="libros.html">Libros</a></li>
+                <li><a href="familias.html">Familias</a></li>
+                <li><a href="batalla.html">Batalla de Hogwarts</a></li>
+                <li><a href="escenas.html">Escenas</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="contacto.html">Contacto</a></li> <!-- Enlace activo a la página de contacto -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal de contacto -->
+    <section class="contact-section">
+        <h2>Contáctanos</h2> <!-- Encabezado de la sección -->
+        <p>Si tienes alguna pregunta o comentario sobre la página, ¡nos encantaría que nos informaras!</p>
+        <!-- Formulario de contacto -->
+        <div class="contact-form">
+            <form>
+                <!-- Campo para el nombre -->
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <!-- Campo para el correo electrónico -->
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <!-- Campo para escribir el mensaje -->
+                <textarea name="mensaje" rows="6" placeholder="Tu mensaje" required></textarea>
+
+                <!-- Sección para aceptar la política de privacidad -->
+                <div class="consentimiento">
+                    <label>
+                        <input type="checkbox" name="consentimiento" required>
+                        He leído y acepto la <a href="politica_privacidad.html" target="_blank">política de privacidad</a>. <!-- Enlace a la política de privacidad -->
+                    </label>
+                </div>
+
+                <!-- Botón para enviar el formulario -->
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
