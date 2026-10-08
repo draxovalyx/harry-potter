@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1e1e2f;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: linear-gradient(90deg, #2c1a47, #4b2e83);
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+.header h1 {
+    font-size: 2rem;
+    color: #f0a500;
+}
+.content {
+    padding: 2rem 5%;
+    text-align: center; /* Centrar contenido */
+}
+.content img {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+.main-image {
+    width: 50%; /* Reduce el tamaño de la imagen */
+    margin: 0 auto 1.5rem auto; /* Centrar horizontalmente */
+    display: block; /* Asegura que actúe como un bloque */
+}
+.houses, .professors, .characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.card {
+    text-align: center;
+    background: #29293d;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    max-width: 100%;
+    height: 200px; /* Tamaño uniforme para las imágenes de las tarjetas */
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.card h3 {
+    margin: 0.5rem 0;
+    color: #f0a500;
+    transition: color 0.3s ease;
+}
+.card p {
+    font-size: 0.9rem;
+}
+.content a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #4b2e83;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.content a:hover {
+    background-color: #f0a500;
+    color: #2c1a47;
+}
+.characters .card a:hover h3 {
+    color: #fff;
+}

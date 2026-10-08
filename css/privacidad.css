@@ -1,0 +1,30 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #1e1e2f;
+            color: #fff;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            font-family: 'Georgia', serif;
+            color: #f0a500;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .content {
+            padding: 2rem 5%;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 2rem;
+        }

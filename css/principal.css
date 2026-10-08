@@ -1,0 +1,148 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #1e1e2f;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Georgia', serif;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #2c1a47, #4b2e83);
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #f0a500;
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .nav-links a {
+            font-weight: bold;
+            color: #f4f4f9;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #f0a500;
+        }
+
+        .banner {
+            background: url('https://media.revistagq.com/photos/64393b50168b3cbc50bd1d4f/16:9/w_1280,c_limit/serie-harry-potter-max-hbo.jpg') no-repeat center center/cover;
+            text-align: center;
+            padding: 5rem 2rem;
+            color: #f4f4f9;
+        }
+
+        .banner h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+        }
+
+        .content {
+            padding: 2rem 5%;
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            color: #f0a500;
+            margin-bottom: 1rem;
+        }
+
+        .grid {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #29293d;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            color: #f0a500;
+            margin-bottom: 0.5rem;
+        }
+
+        .card a {
+            display: block;
+            margin-top: 1rem;
+            color: #f0a500;
+            font-weight: bold;
+        }
+
+        .footer {
+            background: #2c1a47;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            color: #f4f4f9;
+        }
+
+        .footer p {
+            font-size: 0.9rem;
+        }
+
+        #cookie-banner {
+            background: #2c1a47;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #cookie-banner button {
+            background: #f0a500;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            margin-left: 1rem;
+        }

@@ -1,0 +1,54 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #1e1e2f;
+            color: #fff;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(90deg, #2c1a47, #4b2e83);
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2rem;
+            color: #f0a500;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .nav-links a {
+            color: #f4f4f9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-links a:hover {
+            color: #f0a500;
+        }
+        .content {
+            padding: 2rem 5%;
+        }
+        .curiosity {
+            background: #3e3b6f;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .curiosity h3 {
+            color: #f0a500;
+        }
+        .curiosity p {
+            color: #fff;
+            font-size: 1rem;
+        }
+        .curiosity ul {
+            color: #f4f4f9;
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .curiosity ul li {
+            margin: 0.5rem 0;
+        }

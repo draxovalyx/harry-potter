@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1e1e2f;
+    color: #fff;
+    line-height: 1.6;
+    padding: 2rem;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #f0a500;
+    text-align: center;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+.info-column {
+    width: 40%;
+}
+.info-column ul {
+    list-style: none;
+    padding: 0;
+}
+.info-column ul li {
+    background: #2c1a47;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    color: #f0a500;
+}
+.info-column ul li a {
+    color: #f0a500;
+    text-decoration: none;
+    font-weight: normal; 
+}
+.info-column ul li a:hover {
+    text-decoration: underline;
+}
+.text-column {
+    width: 55%;
+    text-align: justify;
+    margin-left: 5%;
+}
+.back-link {
+    display: block;
+    margin-top: 2rem;
+    color: #f0a500;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 400px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 1rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: #f4f4f9; 
+    text-decoration: none;
+    font-weight: normal; 
+}
+a:hover {
+    text-decoration: underline;
+}
+.growth-section {
+    margin-top: 3rem;
+    text-align: center;
+}
+.growth-section h2 {
+    font-size: 2rem;
+    color: #f0a500;
+}
+.growth-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.growth-images img {
+    max-width: 270px;
+    border-radius: 8px;
+}
+.growth-images .image-container {
+    text-align: center;
+}
+.growth-images .image-container p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #f0a500;
+}
+.growth-images .image-container .quote {
+    font-size: 0.9rem;
+    color: #f4f4f9;
+    font-style: italic;
+    margin-top: 0.5rem;
+}

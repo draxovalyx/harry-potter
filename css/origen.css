@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1e1e2f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background: linear-gradient(90deg, #2c1a47, #4b2e83);
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #f0a500;
+    margin-bottom: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.nav-links a {
+    color: #f4f4f9;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links a:hover {
+    color: #f0a500;
+}
+/* Sección principal */
+.main-section {
+    padding: 2rem 5%;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #f0a500;
+    margin-bottom: 1.5rem;
+}
+
+/* Apartados */
+.section {
+    margin-bottom: 3rem;
+}
+
+.section img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.section h3 {
+    font-size: 1.5rem;
+    color: #f0a500;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-container img {
+    max-width: 200px;
+}
+
+.blockquote {
+    border-left: 4px solid #f0a500; 
+    padding-left: 1rem; 
+    font-style: italic; 
+    color: #f4f4f9; 
+    background: rgba(255, 255, 255, 0.1); 
+    margin: 1rem 0;
+}
